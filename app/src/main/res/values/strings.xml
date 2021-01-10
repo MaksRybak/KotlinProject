@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Kursova</string>
+    <string name="Kafedrs">Кафедра</string>
+    <string name="Teacher">Викладачі</string>
+    <string name="Students">Студенти</string>
+    <string name="Position">Розміщення</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="price">Ціни</string>
+    <string name="social_networks">Соціальні мережі</string>
+    <string name="blogger">Блог</string>
+</resources>

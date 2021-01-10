@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEE"
+    tools:context=".BloggerActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!--RecyclerView: loadPosts -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/postsRv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/row_post"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+        <Button
+            android:id="@+id/loadMoreBtn"
+            android:text="Загрузити більше"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/Teacher"
+            android:id="@+id/id_teacher"
+            android:icon="@drawable/ic_teacher"/>
+
+        <item android:title="@string/Students"
+            android:id="@+id/id_students"
+            android:icon="@drawable/ic_students"/>
+
+
+        <item android:title="Maps">
+            <menu>
+                <item android:title="@string/Position"
+                    android:id="@+id/id_position"
+                    android:icon="@drawable/ic_position"/>
+            </menu>
+        </item>
+
+        <item android:title="Інше">
+            <menu>
+                <item android:title="@string/price"
+                    android:id="@+id/id_price"
+                    android:icon="@drawable/ic_price"/>
+
+                <item android:title="@string/social_networks"
+                    android:id="@+id/id_social"
+                    android:icon="@drawable/ic_social"/>
+
+                <item android:title="@string/blogger"
+                    android:id="@+id/id_blogger"
+                    android:icon="@drawable/ic_blogger"/>
+            </menu>
+        </item>
+    </group>
+
+
+
+
+
+
+</menu>
